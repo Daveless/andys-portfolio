@@ -8,7 +8,7 @@ const page = () => {
   return (
     <div>
       <Main/>
-      <InstagramHead/>   
+      <InstagramHead/>
       <InstagramGrid category='marketing'/>
     </div>
   )
