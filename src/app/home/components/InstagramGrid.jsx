@@ -76,16 +76,18 @@ if(category){
 }
 
   return ( 
-    <div className='bg-white'>
-      <hr className='w-5/6 mx-auto max-w-5xl bg-black mb-5'/>
-      <GridNav categories={uniqueCategories} selectedcategory={category}/>
-      <div className='w-full lg:w-5/6 mx-auto max-w-6xl grid grid-cols-3'> 
-        {filteredProjects.map((project, index) => (
-          <WorkCard key={index} projectName={project.name} projectImage={project.image}/>
-        ))
-        }
+  <div className='bg-white'>
+        <div className='mx-auto shadow-lg-lr lg:shadow-none max-w-2xl lg:max-w-6xl'>
+        <hr className='w-5/6 mx-auto max-w-5xl bg-black mb-5'/>
+        <GridNav categories={uniqueCategories} selectedcategory={category}/>
+        <div className='w-full lg:w-5/6 mx-auto max-w-6xl grid grid-cols-3'> 
+          {filteredProjects.map((project, index) => (
+            <WorkCard key={index} projectName={project.name} projectImage={project.image}/>
+          ))
+          }
+        </div>
       </div>
-    </div>
+  </div>
   )
 }
 

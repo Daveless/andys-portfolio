@@ -16,6 +16,9 @@ module.exports = {
       },
       backgroundColor: {
         "portfolio-gray": '#171614'
+      },
+      boxShadow: {
+        'lg-lr': '10px 0 15px -3px rgba(0, 0, 0, 0.1), -10px 0 15px -3px rgba(0, 0, 0, 0.1)',
       }
     },
   },
