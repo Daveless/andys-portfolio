@@ -11,7 +11,8 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "main-background": "url('/img/banner-portfolio.png')"
+        "main-background": "url('/img/banner-portfolio.png')",
+        'instagram-gradient': 'linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)'
       },
       backgroundColor: {
         "portfolio-gray": '#171614'

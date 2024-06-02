@@ -4,16 +4,18 @@ import Image from 'next/image'
 const InstagramHead = () => {
   return (
     <div className='bg-white text-black'>
-        <div className='w-full max-w-6xl pt-1 mx-auto'>
-        <div class="w-full mx-auto bg-white shadow-lg rounded-lg mt-10 p-6">
-            <div className='flex justify-center items-center gap-8'>
-                <div class="w-[150px] rounded-full overflow-hidden border-2 border-7 border-[#C85DC9] bg-[rgba(217,217,217,0.00)]">
-                    <Image
+        <div className='w-full max-w-6xl mx-auto'>
+        <div class="w-full mx-auto bg-white shadow-lg rounded-lg pt-5 p-6">
+            <div className='grid grid-cols-[30%_60%] items-center justify-center gap-[10%]'>
+                <div class="flex justify-center items-center p-[3px] w-full h-full rounded-full instagram">
+                    <div class="rounded-full w-full overflow-hidden border-4 border-white">
+                        <Image
                         src="/img/linkdin-photo.png"
                         alt="Profile Picture"
-                        width={292}
-                        height={292}
-                        className="w-[150px] h-full object-cover "/>
+                        width={100}
+                        height={100}
+                        className="w-full max-w-none object-fill "/>
+                    </div>
                 </div>
                 <div class="flex justify-between">
                         <div className='justify-center text-center'>
